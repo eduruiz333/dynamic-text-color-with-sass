@@ -1,6 +1,23 @@
+$bg: #8578eb;
+
+
+@function text($bg) {
+  @if(lightness($bg) > 50) {
+    @return #000;   
+  } @else {
+    @return #FFF;
+  }
+}
+
+@mixin dc($color) { // dc is short for dynamic color
+  background: $color;
+  color: text($color);
+}
+
 body {
-  font-family: $mainFont;
-  font-size: 62.5%;
-  color: $grey;
-  overflow-x: hidden;
+  height: 100vh;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+  @include dc($bg);
 }

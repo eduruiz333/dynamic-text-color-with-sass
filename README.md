@@ -1,4 +1,4 @@
-# TEMPLATE DE ESTUTURA BÁSICA PARA INÍCIO DE DESENVOLVIMENTO
+# TEMPLATE DE ESTUTURA BÁSICA
 
 ## Instalação do gulp
 
@@ -24,6 +24,6 @@ Repare que na linha de comando acima instalamos também uma outro plugin chamado
 
 Você precisará criar um arquivo dentro do diretório raiz do seu projeto chamado gulpfile.js e incluir todas as variáveis dos plugins que acabamos de instalar. Neste arquivo, vamos criar a tarefa chamada "sass".
 
-### EXEMPLO DE CONFIGURAÇÃO DO PACKAGE.JSON
+### Exemplo de configuração do package.json
 
 https://gist.github.com/eduruiz333/f2ba26fd412604696974f2b7f9283c36

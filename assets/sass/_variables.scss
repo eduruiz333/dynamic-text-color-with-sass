@@ -1,0 +1,41 @@
+// COLOR PALETTE
+$darkBlue: #002a4e;
+$footerBlue: #00264e;
+$orange: #FF6600;
+$grey: #515151;
+$mediumGrey: #aeaeae;
+
+$bgDarkGrey: #e6e6e6;
+$bgLightGrey: #f2f2f2;
+$borderGrey: #cccccc;
+$white: #ffffff;
+$black: #000000;
+
+// TEXT-COLORS
+.color-darkBlue {
+  color: $darkBlue;
+}
+
+.color-orange {
+  color: $orange;
+}
+
+.color-grey {
+  color: $grey;
+}
+
+.color-white {
+  color: $white;
+}
+
+.color-black {
+  color: $black;
+}
+
+.bgDarkGrey {
+  background-color: $bgDarkGrey;
+}
+
+.bgLightGrey {
+  background-color: $bgLightGrey;
+}

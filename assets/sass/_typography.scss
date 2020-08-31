@@ -1,0 +1,52 @@
+@font-face {
+  font-family: mainFont;
+  src: url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+}
+
+$mainFont: Ubuntu, sans-serif;
+
+.mainFont {
+  font-family: $mainFont;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+body {
+  font-family: $mainFont;
+}
+
+h1 {
+  font-size: 2rem;
+  color: $darkBlue;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: $darkBlue;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: $darkBlue;
+}
+
+h4 {
+  font-size: 1rem;
+  color: $darkBlue;
+}
+
+h5 {
+  font-size: .8rem;
+  color: $darkBlue;
+}
+
+h6 {
+  font-size: .6rem;
+  color: $darkBlue;
+}
+
+p {
+  
+}

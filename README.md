@@ -1,4 +1,6 @@
-## INSTALAÇÃO DO GULP
+# TEMPLATE DE ESTUTURA BÁSICA PARA INÍCIO DE DESENVOLVIMENTO
+
+## Instalação do gulp
 
 Podemos instalar o Gulp usando npm. Adicionaremos um sinalizador -g para garantir que o Gulp esteja disponível globalmente para qualquer projeto:
 sudo npm install gulp-cli -g
